@@ -265,6 +265,17 @@ footer a {
     color: #fff;
 }
 
+.footer h2{
+  color: white;
+  font-size: 32px;
+}
+
+.footer{
+  background-color:red;
+  width: 100%;
+  padding: 30px 80px;
+}
+
 .sn{
     height: 2%;
     width: 3%;
@@ -456,9 +467,9 @@ footer a {
 }
 
 .footer a:nth-of-type(3) {
-  top:-70px;
+  top:-100px;
   position: relative;
-  left:400px;
+  left:800px;
  text-decoration: none;
 padding: 6px 15px;
 color:white;
@@ -467,10 +478,19 @@ border-radius: 20px;
 
 
 
-.footer p{
-  top:-40px;
+.footer p:nth-of-type(1){
+  top:-35px;
   position: relative;
-  left:150px;
+  left:450px;
+ text-decoration: none;
+padding: 6px 15px;
+color:white;
+border-radius: 20px;
+}
+.footer p:nth-of-type(2){
+  top:-70px;
+  position: relative;
+  left:100px;
  text-decoration: none;
 padding: 6px 15px;
 color:white;
@@ -550,3 +570,4 @@ border-radius: 20px;
 .menu__item:hover {
   background-color: #CFD8DC;
 }
+
